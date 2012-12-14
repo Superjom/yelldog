@@ -11,7 +11,9 @@ public class RMSE {
 		this.nodes = nodes;
 	}
 	
-
+	/*public addcal(double r, int u, int i){
+		
+	}*/
 	public void cal(){
 		int userID;
 		ProbeNode curnode;

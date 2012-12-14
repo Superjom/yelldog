@@ -29,6 +29,9 @@ public class Data {
 	public static double[][] y = null;
 	public static float mean = 0;
 	
+	public static int maxStep = 5;
+	
+	
 	public static void initTrainingData(){
 		if (train_data == null){
 			train_data = new TrainingData();
